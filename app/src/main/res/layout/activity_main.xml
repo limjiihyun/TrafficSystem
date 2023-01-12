@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- constrainlayout으로 설정 -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- "한밭대 교통관리 시스템" 텍스트 표시/text 스타일 = 두껍게/text 크기/ constraint으로 서로서로 구속 -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="417dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/shuttle_button"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:backgroundTint="#E87CA1"
+            android:text="셔틀 버스 안내 "
+            android:onClick="shuttle_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.232"
+            app:layout_constraintStart_toEndOf="@+id/park_button"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <Button
+            android:id="@+id/park_button"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="12dp"
+            android:backgroundTint="#E87CA1"
+            android:text="주차장 구역"
+            android:onClick="park_button"
+            app:layout_constraintStart_toEndOf="@+id/rotarystart_button"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="2dp" />
+
+        <Button
+            android:id="@+id/rotarystart_button"
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="#E87CA1"
+            android:onClick="rotarystart"
+            android:text="회전교차로 안전 사용법"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="2dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/carshare_button"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#E87CA1"
+        android:onClick="carshare"
+        android:text="카풀 게시판"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="196dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#E87CA1"
+        android:onClick="introduce"
+        android:text="한.교.시 에 대해 궁금해요!"
+        app:iconTint="#B16262"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="291dp"
+        android:layout_height="263dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="알아두면 유용한 학교 내 교통관련 정보"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RFID칩을 이용해 탑승자의 안전성을 보장하는 카풀서비스"
+        app:layout_constraintBottom_toTopOf="@+id/carshare_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

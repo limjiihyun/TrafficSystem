@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--notice.xml의 화면을 변환하기 위한-->
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="494dp"
+        android:layout_height="651dp"
+        android:background="@drawable/frag4" />
+</FrameLayout>

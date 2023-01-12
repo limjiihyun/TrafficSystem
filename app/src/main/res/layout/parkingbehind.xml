@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 세로 또는 가로의 단일 방향으로 모든 하위 요소를 정렬하는 뷰 그룹인 LinearLayout 사용-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- "도서 종류 선택" 텍스트 표시/text 스타일 = "두껍게"/text 크기/ gravity = "중앙" -->
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#E87CA1"
+        android:text="앱 사용자에게만 알려주는 비밀스러운 주차자리!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="목적지를 선택해주세요!"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
+            <RadioButton
+                android:id="@+id/rbtn1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:text="학교 전체 지도 보기"
+                android:textSize="18dp" />
+
+            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
+            <RadioButton
+                android:id="@+id/rbtn2"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:text="S8 건설 공학관"
+                android:textSize="18dp" />
+
+            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
+
+            <RadioButton
+                android:id="@+id/rbtn3"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:text="국제 교류원"
+                android:textSize="18dp" />
+
+            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
+            <RadioButton
+                android:id="@+id/rbtn4"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:text="도서관"
+                android:textSize="18dp" />
+        </RadioGroup>
+        <RadioGroup
+            android:id="@+id/radiogroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
+            <RadioButton
+                android:id="@+id/rbtn5"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:text="N4 산업정보관"
+                android:textSize="18dp" />
+
+            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
+            <RadioButton
+                android:id="@+id/rbtn6"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:text="N1 대학본부"
+                android:textSize="18dp" />
+
+            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
+
+            <RadioButton
+                android:id="@+id/rbtn7"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="20dp"
+                android:text="N13 그린에너지관"
+                android:textSize="18dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:backgroundTint="#E87CA1"
+        android:text="선택" />
+
+    <!-- orientation = "수평" -->
+
+    <!--SF 사진 -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="422dp"
+        android:layout_height="431dp"
+        android:src="@drawable/schoolfull" />
+
+
+</LinearLayout>

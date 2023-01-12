@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--부모뷰의 좌측 상단을 원점으로 지정한 좌표 뷰를 배치하는 AbsoluteLayout -->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 공지사항1 버튼을 누르면 공지사항으로 넘어감 -->
+    <!--  id값 지정 / 이벤트 처리 -->
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:backgroundTint="#E87CA1"
+        android:onClick="setFrag1"
+        android:text="셔틀버스 출발위치" />
+
+    <!-- 공지사항2 버튼을 누르면 또다는 공지사항으로 넘어감 -->
+    <!--  id값 지정 / 이벤트 처리 -->
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_x="215dp"
+        android:layout_y="0dp"
+        android:backgroundTint="#E87CA1"
+        android:onClick="setFrag2"
+        android:text="셔틀버스 노선" />
+
+    <!-- 프레임레이아웃 사용 -->
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="668dp"
+        android:layout_x="1dp"
+        android:layout_y="55dp">
+
+    </FrameLayout>
+</AbsoluteLayout>
