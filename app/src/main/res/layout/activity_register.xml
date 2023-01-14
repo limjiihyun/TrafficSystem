@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="제목을 입력하세요."
+            android:hint="둔산동 갤러리아 카풀구합니다."
             />
     </LinearLayout>
 
@@ -40,7 +40,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="#eeeeee"
-        android:hint="내용을 입력하세요."
+        android:hint="수목금 아침 8:30분에 둔산동 갤러리아 앞에서 학교까지 함께 할실 분 구합니다. 댓글 달아주세요."
         />
 
     <Button
@@ -48,7 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="등록하기"
-        android:backgroundTint="#E87CA1"
+        android:onClick="register"
+        android:backgroundTint="#9370DB"
         android:textColor="#FFFFFF" />
 
 

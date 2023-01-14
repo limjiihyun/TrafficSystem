@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         Button b=(Button)findViewById(R.id.carshare_button);
         b.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent=new Intent(MainActivity.this, LoginActivity.class);
+                Intent intent=new Intent(MainActivity.this, CarshareNotice.class);
                 startActivity(intent);//명시적 인텐트 사용하여 Activity1을 시작
             }
         });
@@ -67,4 +67,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }

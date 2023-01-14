@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_x="0dp"
         android:layout_y="0dp"
-        android:backgroundTint="#E87CA1"
+        android:backgroundTint="#9370DB"
         android:onClick="setFrag1"
         android:text="셔틀버스 출발위치" />
 
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_x="215dp"
         android:layout_y="0dp"
-        android:backgroundTint="#E87CA1"
+        android:backgroundTint="#9370DB"
         android:onClick="setFrag2"
         android:text="셔틀버스 노선" />
 

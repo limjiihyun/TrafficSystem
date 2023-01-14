@@ -15,6 +15,7 @@
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
+            android:label="한밭대학교 교통관리 서비스"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,13 +28,16 @@
                 android:value="" />
         </activity>
         <activity android:name=".RotaryUse" android:label="회전 교차로 안전 사용법"></activity>
-        <activity android:name=".DetailActivity"></activity>
-        <activity android:name=".ListActivity"></activity>
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".ParkingBehind"></activity>
-        <activity android:name=".Shuttle"></activity>
-
+        <activity android:name=".DetailActivity" android:label="카풀 게시판"></activity>
+        <activity android:name=".ListActivity" android:label="카풀 게시판"></activity>
+        <activity android:name=".RegisterActivity" android:label="카풀 게시판"></activity>
+        <activity android:name=".LoginActivity" android:label="로그인"></activity>
+        <activity android:name=".ParkingBehind" android:label="주차장 구역"></activity>
+        <activity android:name=".Shuttle" android:label="셔틀 버스 안내"></activity>
+        <activity android:name=".CarshareNotice" android:label="카풀 사용시 이점"></activity>
+        <activity android:name=".Rule" android:label="카풀 사용자가 알아야 할 사항"></activity>
+        <activity android:name=".Rule2" android:label="카풀 사용자가 알아야 할 사항"></activity>
+        <activity android:name=".Rule3" android:label="카풀 사용자가 알아야 할 사항"></activity>
 
     </application>
 

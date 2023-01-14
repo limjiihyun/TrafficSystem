@@ -34,7 +34,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="제목입니다."
+                    android:text="둔산동 갤러리아 카풀구합니다."
                     />
             </LinearLayout>
             <LinearLayout
@@ -55,7 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="제목입니다."
+                    android:text="2023년 1월 18일"
                     />
             </LinearLayout>
             <TextView
@@ -70,7 +70,7 @@
                 android:background="#eeeeee"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="내용입니다."
+                android:text="수목금 아침 8:30분에 둔산동 갤러리아 앞에서 학교까지 함께 할실 분 구합니다. 댓글 달아주세요."
                 />
 
             <TextView
@@ -105,6 +105,7 @@
             android:id="@+id/reg_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:backgroundTint="#9370DB"
             android:padding="8dp"
             android:text="등록하기"/>
     </LinearLayout>

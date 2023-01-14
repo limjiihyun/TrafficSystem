@@ -17,7 +17,8 @@
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
         android:text="새 글 작성하기"
-        android:backgroundTint="#E87CA1"
+        android:backgroundTint="#9370DB"
         />
+
 
 </LinearLayout>
