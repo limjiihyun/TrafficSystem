@@ -2,6 +2,7 @@
 <!--부모뷰의 좌측 상단을 원점으로 지정한 좌표 뷰를 배치하는 AbsoluteLayout -->
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent">
 
     <!-- 공지사항1 버튼을 누르면 공지사항으로 넘어감 -->

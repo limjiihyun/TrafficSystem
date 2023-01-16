@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <LinearLayout
@@ -24,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="둔산동 갤러리아 카풀구합니다."
+            android:textColorHint="@color/black"
             />
     </LinearLayout>
 
@@ -31,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="16dp"
+        android:textColor="@color/black"
         android:text="내용"/>
 
     <EditText
@@ -41,6 +44,7 @@
         android:layout_weight="1"
         android:background="#eeeeee"
         android:hint="수목금 아침 8:30분에 둔산동 갤러리아 앞에서 학교까지 함께 할실 분 구합니다. 댓글 달아주세요."
+        android:textColorHint="@color/black"
         />
 
     <Button

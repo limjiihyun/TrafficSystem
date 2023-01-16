@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:padding="16dp"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <ScrollView
@@ -25,6 +26,7 @@
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
+                    android:textColor="@color/black"
                     android:text="제목"/>
 
                 <TextView
@@ -35,6 +37,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="둔산동 갤러리아 카풀구합니다."
+                    android:textColor="@color/black"
                     />
             </LinearLayout>
             <LinearLayout
@@ -46,6 +49,7 @@
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:padding="16dp"
+                    android:textColor="@color/black"
                     android:text="작성일"/>
 
                 <TextView
@@ -56,12 +60,14 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="2023년 1월 18일"
+                    android:textColor="@color/black"
                     />
             </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
+                android:textColor="@color/black"
                 android:text="내용"/>
 
             <TextView
@@ -71,6 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="수목금 아침 8:30분에 둔산동 갤러리아 앞에서 학교까지 함께 할실 분 구합니다. 댓글 달아주세요."
+                android:textColor="@color/black"
                 />
 
             <TextView
@@ -100,13 +107,16 @@
             android:layout_height="wrap_content"
             android:background="#eeeeee"
             android:layout_weight="1"
+            android:textColorHint="@color/black"
             android:hint="댓글 내용을 입력하세요"/>
+
         <Button
             android:id="@+id/reg_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:backgroundTint="#9370DB"
             android:padding="8dp"
-            android:text="등록하기"/>
+            android:textSize="10dp"
+            android:text="등록하기" />
     </LinearLayout>
 </LinearLayout>

@@ -25,7 +25,7 @@
 
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="" />
+                android:value=""/>
         </activity>
         <activity android:name=".RotaryUse" android:label="회전 교차로 안전 사용법"></activity>
         <activity android:name=".DetailActivity" android:label="카풀 게시판"></activity>
