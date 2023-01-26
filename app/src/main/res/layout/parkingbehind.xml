@@ -80,15 +80,7 @@
                 android:text="도서관"
                 android:textColor="@color/black"
                 android:textSize="18dp" />
-        </RadioGroup>
 
-        <RadioGroup
-            android:id="@+id/radiogroup2"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
             <RadioButton
                 android:id="@+id/rbtn5"
                 android:layout_width="match_parent"
@@ -98,7 +90,6 @@
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
-            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
             <RadioButton
                 android:id="@+id/rbtn6"
                 android:layout_width="match_parent"
@@ -108,8 +99,6 @@
                 android:textColor="@color/black"
                 android:textSize="18dp" />
 
-            <!-- id값 지정/라디오 그룹 안에 라디오 버튼 설정 -->
-
             <RadioButton
                 android:id="@+id/rbtn7"
                 android:layout_width="match_parent"
@@ -118,7 +107,6 @@
                 android:text="N13 그린에너지관"
                 android:textColor="@color/black"
                 android:textSize="18dp" />
-
         </RadioGroup>
 
     </LinearLayout>
@@ -138,8 +126,8 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="302dp"
+        android:layout_width="421dp"
+        android:layout_height="349dp"
         android:src="@drawable/schoolfull" />
 
 

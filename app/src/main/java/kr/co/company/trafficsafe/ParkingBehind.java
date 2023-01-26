@@ -46,14 +46,24 @@ public class ParkingBehind extends AppCompatActivity {
                         image.setImageResource(R.drawable.schoolfull);
                         break;
                     case R.id.rbtn2: //switch 문을 사용해 rbtn2버튼을 누르면 도서관 2층 사진 출력
-                        image.setImageResource(R.drawable.outside1);
+                        image.setImageResource(R.drawable.park1);
                         break;
                     case R.id.rbtn3: //switch문을 사용해 rbtn3버튼을 누르면 도서관 3층 사진 출력
-                        image.setImageResource(R.drawable.outside2);
+                        image.setImageResource(R.drawable.park2);
                         break;
                     case R.id.rbtn4: //switch문을 사용해 rbtn4버튼을 누르면 도서관 4층 사진 출력
+                        image.setImageResource(R.drawable.park3);
+                        break;
+                    case R.id.rbtn5: //switch문을 사용해 rbtn4버튼을 누르면 도서관 4층 사진 출력
+                        image.setImageResource(R.drawable.outside2);
+                        break;
+                    case R.id.rbtn6: //switch문을 사용해 rbtn4버튼을 누르면 도서관 4층 사진 출력
                         image.setImageResource(R.drawable.outside3);
                         break;
+                    case R.id.rbtn7: //switch문을 사용해 rbtn4버튼을 누르면 도서관 4층 사진 출력
+                        image.setImageResource(R.drawable.park5);
+                        break;
+
                 }
             }
         });

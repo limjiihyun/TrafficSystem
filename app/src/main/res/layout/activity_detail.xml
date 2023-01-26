@@ -108,6 +108,8 @@
             android:background="#eeeeee"
             android:layout_weight="1"
             android:textColorHint="@color/black"
+            android:textColor="#ffFF6000"
+            android:textCursorDrawable="@null"
             android:hint="댓글 내용을 입력하세요"/>
 
         <Button
